@@ -1,0 +1,107 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+
+  background: url(back1.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+.jumbotron {
+  padding: 15px 15px;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+
+.no-left-padding {
+    padding-left: 0px;
+}
+
+.no-right-padding {
+    padding-right: 0px;
+}
+
+/*MagicSuggest*/
+.ms{
+    margin-bottom: 5px;
+}
+
+.ms .name{
+    font-weight: bold;
+    color: #333;
+}
+.ms .prop{
+    float: left;
+    width: 15%;
+}
+.ms .prop .lbl{
+    font-size: 11px;
+    line-height: 11px;
+    float: left;
+    color: #AAA;
+    margin-left: 25px;
+    margin-right: 5px;
+}
+.ms .prop .val{
+    font-size: 11px;
+    line-height: 11px;
+    color: #666;
+}
+
+.ms-sel-item .name{
+    float: left;
+}
+
+/*Stars*/
+.star-icon {
+    color: #ddd;
+    font-size: 1em;
+    position: relative;
+}
+.star-icon.full:before {
+    text-shadow: 0 0 0px rgba(0,0,0,0);
+    color: #000000;
+    content: '\2605'; /* Full star in UTF-8 */
+    position: absolute;
+    left: 0;
+}
+.star-icon.half:before {
+    text-shadow: 0 0 0px rgba(0,0,0,0);
+    color: #000000;
+    content: '\2605'; /* Full star in UTF-8 */
+    position: absolute;
+    left: 0;
+    width: 50%;
+    overflow: hidden;
+}
